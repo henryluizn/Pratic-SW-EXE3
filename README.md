@@ -6,7 +6,7 @@ Use the command "make" to compilate and generate de executable binary file.
 
 For execute, digit "exe3" in command line.
 
-The program gets the width, height and his name of a rectangle.
+The program gets the width, height and name of a rectangle.
 
 In the execution, the programm will get the datas and by this point, calculate the area and perimeter.
 
