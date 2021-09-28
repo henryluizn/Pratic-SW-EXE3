@@ -571,6 +571,16 @@
 									},
 									"type": "float",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8LYJyHLN1OI0=",
+									"_parent": {
+										"$ref": "AAAAAAF8LHLBvLJ60VM="
+									},
+									"name": "Parameter1",
+									"type": "",
+									"direction": "return"
 								}
 							]
 						},
