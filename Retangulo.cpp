@@ -181,5 +181,4 @@ float Retangulo::calculaPerimetro(){
         cout << "\nErro ao calcular o perimetro do retangulo. Tente novamente.\n";
         throw 1;
     }
-    
 }

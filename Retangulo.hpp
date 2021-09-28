@@ -33,5 +33,4 @@ class Retangulo
         float getPerimetro();
 
 };
-
 #endif
