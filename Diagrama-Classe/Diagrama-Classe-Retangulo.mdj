@@ -353,7 +353,7 @@
 											"top": 242,
 											"width": 367,
 											"height": 13,
-											"text": "+getNomeRetangulo(): void",
+											"text": "+getNomeRetangulo(): string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -748,7 +748,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF8LOGbgrMp4Ns="
 									},
-									"type": "void",
+									"type": "string",
 									"direction": "return"
 								}
 							]

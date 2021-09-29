@@ -65,6 +65,7 @@ void Retangulo::setArea(Retangulo ret)
     }
     catch(int e){
         cout << "\n";
+        throw 1;
     }
 }
 
@@ -78,6 +79,7 @@ void Retangulo::setPerimetro(Retangulo ret)
     catch(int e)
     {
         cout << "\n";
+        throw 1;
     }
     
 }

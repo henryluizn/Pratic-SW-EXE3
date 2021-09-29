@@ -15,6 +15,7 @@ void maiorArea(Retangulo ret_1, Retangulo ret_2)
         }else if (ret_1.getArea() == ret_2.getArea())
         {
             cout << "\n\nAs duas areas sao iguais!";
+            throw 1;
         }else if (ret_1.getArea() < ret_2.getArea())
         {
             cout << "\n\nA maior area eh do retangulo " << ret_2.getNomeRetangulo() << " : " << ret_2.getArea();
@@ -33,6 +34,7 @@ void maiorPerimetro(Retangulo ret_1, Retangulo ret_2)
         }else if (ret_1.getPerimetro() == ret_2.getPerimetro())
         {
             cout << "\n\nOs dois retangulos possuem perimetros iguais!";
+            throw 1;
         }else if (ret_1.getPerimetro() < ret_2.getPerimetro())
         {
             cout << "\n\nO maior perimetro eh o do retangulo " << ret_2.getNomeRetangulo() << ": " << ret_2.getPerimetro();
@@ -89,14 +91,17 @@ int main(int argc, char const *argv[])
         cout << "\nArea e perimetro do retangulo " << ret_2.getNomeRetangulo() << " : ";
         ret_2.setArea(ret_2);
         ret_2.setPerimetro(ret_2);
+        
+        maiorArea(ret_1, ret_2);
+        maiorPerimetro(ret_1, ret_2);    
     }
     catch(int i)
     {
-        cout << "\nErro ao realizar o cálculo. Tente novamente.";
+        cout << "\nAbortando execucao.\n";
     }
     
-    maiorArea(ret_1, ret_2);
-    maiorPerimetro(ret_1, ret_2);        
+    // maiorArea(ret_1, ret_2);
+    // maiorPerimetro(ret_1, ret_2);        
 
     return 0;
 }
