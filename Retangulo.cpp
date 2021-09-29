@@ -133,10 +133,6 @@ float Retangulo::calculaArea()
         {
             cout << "\n\tNao eh possivel calcular a area com pelo menos um dos lados negativo. Tente novamente\n";
             throw -1;
-        }else if (base == altura)
-        {
-            cout << "\n\tNao existe um retangulo com lados iguais. Tente novamente.\n";
-            throw -1;
         }
         
         
@@ -168,10 +164,6 @@ float Retangulo::calculaPerimetro(){
         }else if ( (base < 0) || (altura < 0))
         {
             cout << "\n\tNao eh possivel calcular o perimetro com pelo menos um lado igual a zero. Tente novamente.\n";
-            throw 1;
-        }else if (base == altura)
-        {
-            cout << "\n\tNao eh possivel calcular o perimetro para lados iguais. Tente novamente.\n";
             throw 1;
         }
         
