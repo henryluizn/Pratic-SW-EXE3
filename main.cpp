@@ -98,10 +98,7 @@ int main(int argc, char const *argv[])
     catch(int i)
     {
         cout << "\nAbortando execucao.\n";
-    }
-    
-    // maiorArea(ret_1, ret_2);
-    // maiorPerimetro(ret_1, ret_2);        
+    }    
 
     return 0;
 }
